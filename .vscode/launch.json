@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "agent react react",
+      "type": "python",
+      "request": "launch",
+      "module": "agent.react.ReAct",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "envFile": "${workspaceFolder}/agent/react/.env"
+    }
+  ]
+}
